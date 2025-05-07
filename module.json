@@ -1,49 +1,52 @@
 {
   "id": "monsters",
   "title": "Monsters",
-  "description": "",
-  "author": "R20Converter",
   "version": "0.14.0rc2",
-  "minimumCoreVersion": "0.7.5",
-  "manifest": "https:\Users\Hillemperor\AppData\Local\FoundryVTT\Data\modules\monsters\module.json",
-"compatibleCoreVersion": "1.0.0",
-  "system": "dnd5e",
+  "manifest": "https://raw.githubusercontent.com/Hillemperor/Foundry/blob/main/module.json",
   "packs": [
     {
       "name": "actors",
       "label": "Actors (Monsters)",
-      "path": "packs/actors.db",
-      "module": "monsters",
-      "entity": "Actor",
+      "path": "packs/actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "scenes",
       "label": "Scenes (Monsters)",
-      "path": "packs/scenes.db",
-      "module": "monsters",
-      "entity": "Scene",
+      "path": "packs/scenes",
       "type": "Scene",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "decks",
       "label": "Decks (Monsters)",
-      "path": "packs/decks.db",
-      "module": "monsters",
-      "entity": "RollTable",
+      "path": "packs/decks",
       "type": "RollTable",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "cards",
       "label": "Deck Cards (Monsters)",
-      "path": "packs/cards.db",
-      "module": "monsters",
-      "entity": "Item",
+      "path": "packs/cards",
       "type": "Item",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ]
 }
