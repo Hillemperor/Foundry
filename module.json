@@ -1,0 +1,49 @@
+{
+  "id": "monsters",
+  "title": "Monsters",
+  "description": "",
+  "author": "R20Converter",
+  "version": "0.14.0rc2",
+  "minimumCoreVersion": "0.7.5",
+  "manifest": "https:\Users\Hillemperor\AppData\Local\FoundryVTT\Data\modules\monsters\module.json",
+"compatibleCoreVersion": "1.0.0",
+  "system": "dnd5e",
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Actors (Monsters)",
+      "path": "packs/actors.db",
+      "module": "monsters",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes (Monsters)",
+      "path": "packs/scenes.db",
+      "module": "monsters",
+      "entity": "Scene",
+      "type": "Scene",
+      "system": "dnd5e"
+    },
+    {
+      "name": "decks",
+      "label": "Decks (Monsters)",
+      "path": "packs/decks.db",
+      "module": "monsters",
+      "entity": "RollTable",
+      "type": "RollTable",
+      "system": "dnd5e"
+    },
+    {
+      "name": "cards",
+      "label": "Deck Cards (Monsters)",
+      "path": "packs/cards.db",
+      "module": "monsters",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    }
+  ]
+}
